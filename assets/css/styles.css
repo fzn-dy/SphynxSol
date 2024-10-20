@@ -4,6 +4,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Schoolbell&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bungee+Tint&family=New+Amsterdam&family=Schoolbell&display=swap");
 
+@font-face {
+  font-family: 'MythologyOfEgypt';
+  src: url('/assets/fonts/Mythology Of Egypt.ttf') format('truetype');
+  /* format bisa 'truetype' atau 'opentype' tergantung dari format file font */
+  font-weight: normal;
+  font-style: normal;
+}
+
 /*=============== VARIABLES CSS ===============*/
 :root {
   --header-height: 3.5rem;
@@ -383,6 +391,9 @@ img {
 }
 
 /*=============== TOKENOMICS ===============*/
+.sphynx__marquee{
+  font-family: 'MythologyOfEgypt';
+}
 .tokenomicspages {
   background-image: url("../img/finish-02.jpg");
   background-size: cover;
@@ -402,6 +413,13 @@ img {
   -webkit-text-fill-color: #ffffff;
 }
 
+.about__header{
+  font-size: 80px;
+  font-family: 'MythologyOfEgypt';
+  line-height: 1;
+  color: #dfe6ec;
+}
+
 .about__container {
   position: relative;
   row-gap: 3.5rem;
@@ -412,7 +430,9 @@ img {
 }
 
 .about__description {
+  /* font-family: 'MythologyOfEgypt'; */
   margin-bottom: 2rem;
+  color: #dfe6ec;
 }
 
 .about__img {
