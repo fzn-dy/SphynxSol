@@ -123,7 +123,7 @@ gsap.from(".game_canvas3", 1.2, { opacity: 0, y: 100, delay: 0.8 });
 gsap.from(".token_symbol", 1.2, { opacity: 0, x: -200, delay: 0.4 });
 gsap.from(".token_lp", 1.2, { opacity: 0, x: 150, delay: 0.6 });
 gsap.from(".token_tax", 1.2, { opacity: 0, y: 200, delay: 0.6 });
-gsap.from(".token_supply", 1.2, { opacity: 0, y: 200, delay: 0.8 });
+gsap.from(".home__snow", 1.2, { opacity: 0, y: 200, delay: 0.8 });
 gsap.from(".token_section", 1.2, { opacity: 0, y: 200, delay: 0.9 });
 gsap.from(".token_section2", 1.2, { opacity: 0, y: 200, delay: 0.4 });
 gsap.from(".aboutlate1", 1.2, { opacity: 0, y: 180, delay: 0.4 });
