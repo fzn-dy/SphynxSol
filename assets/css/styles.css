@@ -341,7 +341,7 @@ img {
 }
 
 .home__mountain-1,
-.home__snow {
+.home__snow .token_supply {
   bottom: 0;
 }
 
@@ -1006,7 +1006,7 @@ img.vert-move {
   .home__mountain-1,
   .home__mountain-2,
   .home__mountain-3,
-  .home__snow {
+  .home__snow .token_supply {
     width: 100%;
   }
   .home__village {
