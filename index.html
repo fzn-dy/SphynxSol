@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noimageindex"></meta>
+
+    <!--=============== FAVICON ===============-->
+    <link rel="icon" type="image/x-icon" href="./assets/img/favicon.ico"/>
+    <link rel="icon" type="image/png" href="./assets/img/favicon.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/games.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+
+    <title>$SPHYNX - Desert Tomb Coin</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header px-5" id="header">
+      <nav class="nav container mx-auto max-w-screen-lg">
+        <a href="/" class="nav__logo my-2"> 
+          <!-- <div class="addtextnav"></div> -->
+          <img src="assets/img/logosph.png" class="logobison" alt="logo image" />
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#hero" class="nav__link active-link">Home</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#tokenomics" class="nav__link">Tokenomics</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#partnership" class="nav__link">Partnership</a>
+            </li>
+          </ul>
+
+          <!-- Close button -->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <!-- Toggle button -->
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-apps-2-line"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main" id="hero">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home" style="background-image: url(assets/img/SPHYNX-07.png);">
+      
+        <!-- Other images with parallax effects -->
+        <img
+          src="assets/img/Asset 1.png"
+          alt="home image"
+          class="home__moon parallax"
+          data-rellax-speed="-15"
+        />
+        <img
+          src="assets/img/SPHYNX-06.png"
+          alt="home image"
+          class="home__mountain-3 parallax"
+          data-rellax-speed="-8"
+        />
+        <img
+          src="assets/img/SPHYNX-05.png"
+          alt="home image"
+          class="home__mountain-2 parallax"
+          data-rellax-speed="-8"
+        />
+        <img
+          src="assets/img/SPHYNX-04.png"
+          alt="home image"
+          class="home__pine parallax"
+          data-rellax-speed="-10"
+        />
+        <img
+          src="assets/img/SPHYNX-03.png"
+          alt="home image"
+          class="home__snow parallax absolute bottom-0"
+        />
+        <img
+          src="assets/img/SPHYNX-01.png"
+          alt="home image"
+          class="home__mountain-1"
+        />
+      </section>
+      
+    </main>
+    
+<section
+  id="about"
+  class="join-parallax relative lg:h-screen flex flex-col text-center justify-center py-24"
+  style="background-image: url(./assets/img/bg_about.png);"
+>
+  <div class="sphynx__marquee z-10 absolute top-0 left-0 w-full flex text-center items-center justify-center text-2xl md:text-4xl lg:text-6xl">
+    <img src="assets/img/about_atas.png" alt="">
+  </div>
+
+<div class="flex flex-col lg:flex-row justify-between items-center w-full max-w-6xl z-10 mt-6">
+  <div class="text-left font-semibold px-2">
+          <div class="roadmap mx-auto max-w-screen-lg px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-4 relative -mt-24" style="z-index: 1; position: relative;"></div>
+            <div class="about__data mt-24">
+              <div class="grid grid-cols-1 lg:grid-cols-2">
+                <div>
+                  <div class="texttitleabout section__title">
+                    <div class="mt-6 token_section2 section__title flex justify-left items-center">
+                      <p class="about__header">
+                        About <br> Sphinx
+                      </p>
+                    </div>
+                  </div>
+                  <div class="mx-auto max-w-screen-lg">
+                    <p class="about__description text-justify">
+                      $SPHYNX is a token built on the Solana blockchain, inspired by the desert, ancient Egypt, and pyramids. 
+                      The "Desert Tomb Coin" concept reflects the vast potential of the crypto market, symbolizing resilience and rarity. 
+                      Rooted in Egyptian mythology, $SPHYNX channels the strength and mystery of the sphinx, a guardian of knowledge 
+                      and treasure. The pyramid, a symbol of stability and power, represents the token's solid ecosystem and long-term growth. 
+                      The "Tomb" concept adds depth, symbolizing the preservation of wealth and hidden treasures, aligning with the idea of 
+                      safeguarding value and uncovering new opportunities for $SPHYNX holders.
+                    </p>
+                  </div>
+                  
+                  <div class="max-w-screen-lg justify-center" data-rellax-speed="-2">
+                    <div class="max-w-screen-lg flex flex-col md:flex-row gap-2">
+                      <div
+                        class="token_symbol grow text-[#996E3C] bg-[#EDB969] rounded-full text-xl md:text-2xl lg:text-4xl font-semibold px-4 py-4 border-2 border-[#EDB969] text-center"
+                      >
+                      Contract Address
+                      </div>
+                      <div class="flex-none token_lp">
+                        <button
+                          class="rounded-full bg-[#EDB969] p-6 hover:bg-white text-[#996E3C] transition hover:text-black/75 border-2 border-[#EDB969]"
+                          onclick="copyToClipboard('????')"
+                        >
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="h-6 w-6 icon icon-tabler icon-tabler-clipboard"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="#000000"
+                            fill="none"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path
+                              d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2"
+                            />
+                            <path
+                              d="M9 3m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v0a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z"
+                            />
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="flex flex-col text-center justify-center md:justify-left items-center md:items-start w-full mt-2 mb-16">
+                      <div class="flex-row">
+                        <a href="#"  target="_blank">
+                          <button class=" mt-2 bg-[#5B2D45] hover:bg-[#EDB969] rounded-full text-xl md:text-2xl lg:text-3xl font-semibold text-white px-12 py-4 border-2 border-[#5B2D45] hover:border-[#EDB969] transform">
+                            <p>Buy $SPHYNX</p>
+                          </button>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+              
+            </div>
+          </div>
+  </div>
+
+  <div class="flex items-center justify-center z-1 mt-0 lg:mt-0">
+    <img
+      src="./assets/img/mummyV2.gif"
+      alt="$SPHYNX"
+      class="absolute bottom-4 right-36 mt-0 md:mt-0 w-[65%] md:w-[70%] lg:w-[60%]"
+    />
+  </div>
+</div>
+
+  <div class="sphynx__marquee z-10 absolute bottom-0 left-0 w-full flex text-center items-center justify-center text-[#996E3C] text-2xl md:text-4xl lg:text-6xl">
+    <img src="assets/img/about_bawah.png" alt="">
+  </div>
+</section>
+
+<!-- TOKENOMICS -->
+<section
+  id="tokenomics"
+  class="join-parallax relative lg:h-screen flex flex-col text-center justify-center py-24"
+  style="background-image: url(assets/img/sphynx/bg_token_partner.png);"
+>
+  <div class="sphynx__marquee z-10 absolute top-0 left-0 w-full flex text-center items-center justify-center text-[#996E3C] overflow-x-hidden text-2xl md:text-4xl lg:text-6xl bg-[#edb969] shadow-lg">
+    <div class="pt-3 animate-marquee whitespace-nowrap">
+      <span>$SPHYNX</span>
+      <span>$SPHYNX</span>
+      <span>$SPHYNX</span>
+      <span>$SPHYNX</span>
+      <span>$SPHYNX</span>
+      <span>$SPHYNX</span>
+      <span>$SPHYNX</span>
+      <span>$SPHYNX</span>
+    </div>
+  </div>
+
+  <div class="">
+    <div class="flex justify-center items-center text-center">
+      <div class="max-w-screen-xl flex justify-center items-center text-center mb-2">
+        <img src="./assets/img/sphynx/tokenomics.png" alt="" class="w-full px-4 lg:w-[60%]"/>
+      </div>
+    </div>
+  </div>
+
+  <div class="sphynx__marquee z-10 absolute bottom-0 left-0 w-full flex text-center items-center justify-center text-[#996E3C] overflow-x-hidden text-2xl md:text-4xl lg:text-6xl bg-[#edb969] shadow-lg">
+    <div class="pt-3 animate-marquee whitespace-nowrap">
+      <span>$SPHYNX</span>
+      <span>$SPHYNX</span>
+      <span>$SPHYNX</span>
+      <span>$SPHYNX</span>
+      <span>$SPHYNX</span>
+      <span>$SPHYNX</span>
+      <span>$SPHYNX</span>
+      <span>$SPHYNX</span>
+    </div>
+  </div>
+</section>
+
+<!-- PARTNERSHIP -->
+<section
+  id="partnership"
+  class="relative h-screen flex flex-col text-center justify-center py-24"
+  style="background-image: url(assets/img/sphynx/bg_token_partner.png); background-size: cover;"
+>
+  <div class="">
+    <div class="flex justify-center items-center text-center">
+      <div class="max-w-screen-xl flex justify-center items-center text-center mb-2">
+        <img src="./assets/img/sphynx/partnership.png" alt="" class="px-4 w-full lg:w-[80%]">
+      </div>
+    </div>
+
+    <div class="mx-auto max-w-2xl px-4 py-8">
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <div class="flex justify-center">
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="flex flex-col p-4 opacity-70 items-center rounded-2xl justify-center shadow-md hover:shadow-xl hover:-translate-y-2 transition-shadow duration-300 transform mx-auto"
+          >
+            <img
+              src="./assets/img/sphynx/coingecko.png"
+              alt="#"
+              class="h-2/3 w-2/3 object-contain rounded-full"
+            />
+          </a>
+        </div>
+        <div class="flex justify-center">
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="flex flex-col p-4 opacity-70 items-center rounded-2xl justify-center shadow-md hover:shadow-xl hover:-translate-y-2 transition-shadow duration-300 transform mx-auto"
+          >
+            <img
+              src="./assets/img/sphynx/coinmarketcap.png"
+              alt="#"
+              class="h-2/3 w-2/3 object-contain rounded-full"
+            />
+          </a>
+        </div>
+        <div class="flex justify-center">
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="flex flex-col p-4 opacity-70 items-center rounded-2xl justify-center shadow-md hover:shadow-xl hover:-translate-y-2 transition-shadow duration-300 transform mx-auto"
+          >
+            <img
+              src="./assets/img/sphynx/raydium.png"
+              alt="#"
+              class="h-2/3 w-2/3 object-contain rounded-full"
+            />
+          </a>
+        </div>
+        <div class="flex justify-center">
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="flex flex-col p-4 opacity-70 items-center rounded-2xl justify-center shadow-md hover:shadow-xl hover:-translate-y-2 transition-shadow duration-300 transform mx-auto"
+          >
+            <img
+              src="./assets/img/sphynx/dexscreener.png"
+              alt="#"
+              class="h-2/3 w-2/3 object-contain rounded-full"
+            />
+          </a>
+        </div>
+        <div class="flex justify-center">
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="flex flex-col p-4 opacity-70 items-center rounded-2xl justify-center shadow-md hover:shadow-xl hover:-translate-y-2 transition-shadow duration-300 transform mx-auto"
+          >
+            <img
+              src="./assets/img/sphynx/jupiter.png"
+              alt="#"
+              class="h-2/3 w-2/3 object-contain rounded-full"
+            />
+          </a>
+        </div>
+        <div class="flex justify-center">
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="flex flex-col p-4 opacity-70 items-center rounded-2xl justify-center shadow-md hover:shadow-xl hover:-translate-y-2 transition-shadow duration-300 transform mx-auto"
+          >
+            <img
+              src="./assets/img/sphynx/unity.png"
+              alt="#"
+              class="h-2/3 w-2/3 object-contain rounded-full"
+            />
+          </a>
+        </div>
+        <!-- Add more partners as needed -->
+      </div>
+    </div>
+  </div>
+  
+
+  <div class="varsity z-10 absolute bottom-0 left-0 w-full text-[#996E3C] text-6xl flex overflow-x-hidden ">
+    <div class="flex justify-center items-center text-center">
+      <div class="w-full flex justify-center items-center text-center">
+        <img src="./assets/img/sphynx/bg_partner.png" alt="" class="w-[100%]">
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="flex flex-col text-center items-end bg-[#5B2D45] justify-center text-white">
+  <div class="">
+
+    <div class="mt-8 lg:mt-0 flex flex-col justify-between md:p-6 p-4">
+      <div class="oswald flex flex-row justify-center md:justify-end space-x-4 text-lg mt-4 md:mt-0">
+        <div class="hover:text-gray-400 cursor-pointer">
+          <a href="/">Home</a>
+        </div>
+        <div class="hover:text-gray-400 cursor-pointer">
+          <a href="#about">About</a>
+        </div>
+        <div class="hover:text-gray-400 cursor-pointer">
+          <a href="#tokenomics">Tokenomics</a>
+        </div>
+        <div class="hover:text-gray-400 cursor-pointer">
+          <a href="#partnership">Partnership</a>
+        </div>
+      </div>
+
+      <div class="flex justify-center items-center md:justify-end space-x-4 mt-4">
+        <div>Follow Us</div>
+        <a
+          href="https://t.me/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="w-12 h-12 text-white rounded-full flex items-center justify-center"
+        >
+          <img
+            src="assets/img//sphynx/telegram.png"
+            alt="Logo Telegram"
+            class="w-[100%] h-auto"
+          />
+        </a>
+        <a
+          href="https://x.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="w-12 h-12 text-white rounded-full flex items-center justify-center"
+        >
+          <img
+            src="assets/img/sphynx/x_twitter.png"
+            alt="Logo X"
+            class="w-[100%] h-auto"
+          />
+        </a>
+      </div>
+
+      <div class="oswald flex flex-col items-center lg:items-end mt-4 text-lg text-center md:text-right">
+        <p class="text-red-500">Disclaimer:</p>
+        <p class="max-w-lg">
+          This website is for entertainment only. Meme coins are risky, so DYOR and only invest what you can afford to lose.
+        </p>
+        <p class="varsity mt-2 text-lg">© 2024 $SPHYNX. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+    <!--=============== RELLAX JS ===============-->
+    <script src="assets/js/rellax.min.js"></script>
+    <script src="assets/js/move.js"></script>
+
+    <!--=============== GSAP ===============-->
+    <script src="assets/js/gsap.min.js"></script>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
