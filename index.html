@@ -58,19 +58,19 @@
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list">
             <li class="nav__item">
-              <a href="/" class="nav__link active-link">Home</a>
+              <a href="#hero" class="nav__link active-link">Home</a>
             </li>
 
             <li class="nav__item">
-              <a href="/about" class="nav__link">About</a>
+              <a href="#about" class="nav__link">About</a>
             </li>
 
             <li class="nav__item">
-              <a href="/games" class="nav__link">Games</a>
+              <a href="#tokenomics" class="nav__link">Tokenomics</a>
             </li>
 
             <li class="nav__item">
-              <a href="/tokenomics" class="nav__link">Tokenomics</a>
+              <a href="#partnership" class="nav__link">Partnership</a>
             </li>
           </ul>
 
@@ -88,7 +88,7 @@
     </header>
 
     <!--==================== MAIN ====================-->
-    <main class="main">
+    <main class="main" id="hero">
       <!--==================== HOME ====================-->
       <section class="home section" id="home" style="background-image: url(assets/img/SPHYNX-07.png);">
       
@@ -134,96 +134,51 @@
 <section
   id="about"
   class="join-parallax relative lg:h-screen flex flex-col text-center justify-center py-24"
-  style="background-image: url(assets/img/bg_about.png);"
+  style="background-image: url(./assets/img/bg_about.png);"
 >
   <div class="sphynx__marquee z-10 absolute top-0 left-0 w-full flex text-center items-center justify-center text-2xl md:text-4xl lg:text-6xl">
     <img src="assets/img/about_atas.png" alt="">
   </div>
 
-  <!-- <div class="roadmap mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-4 relative -mt-24" style="z-index: 1; position: relative;">
-         
-          <div class="about__container grid lg:grid-cols-2">
-            <div class="about__data">
-              <div class="texttitleabout section__title">
-                <div class="mt-6 token_section2 section__title flex justify-left items-center">
-                   <p class="about__header">
-                    About <br> Sphinx
-                  </p>
-                </div>
-              </div>
-              <div class="mx-auto max-w-screen-lg">
-                <p class="about__description text-justify">
-                  BISONISH is an innovative project focused on developing meme-based
-                  games on the Solana network, blending entertainment with
-                  blockchain technology. It creates fun and addictive games inspired
-                  by meme culture, offering players the chance to earn and collect
-                  digital assets like coins or tokens. By leveraging Solana's fast
-                  and low-cost transactions, BISONISH ensures a seamless gaming
-                  experience, where the worlds of gaming and memes intersect on a
-                  cutting-edge blockchain platform.
-                </p>
-              </div>
-
-              <div class="community-section">
-                <h2 class="community-title">Join Our Community :</h2>
-              
-                <div class="button-container flex flex-row items-center lg:justify-left">
-                  <a href="#" class="button-circle">
-                    <img src="assets/img/Asset 17.png" alt="Circle Button 1" class="circle-image" />
-                  </a>
-              
-                  <a href="#" class="button-circle">
-                    <img src="assets/img/Asset 18.png" alt="Circle Button 2" class="circle-image" />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-      
-          <div class="imgbisonabout absolute right-[-10%] top-0 -mt-[20%] lg:-mt-[5%]">
-            <img
-              src="assets/img/mummy.gif"
-              alt="mummy image"
-              class="h-auto w-[80%] about__img"
-            />
-          </div>
-          
-        </div> -->
 <div class="flex flex-col lg:flex-row justify-between items-center w-full max-w-6xl z-10 mt-6">
   <div class="text-left font-semibold px-2">
           <div class="roadmap mx-auto max-w-screen-lg px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-4 relative -mt-24" style="z-index: 1; position: relative;"></div>
-            <div class="about__data">
-              <div class="texttitleabout section__title">
-                <div class="mt-6 token_section2 section__title flex justify-left items-center">
-                   <p class="about__header">
-                    About <br> Sphinx
-                  </p>
+            <div class="about__data mt-24">
+              <div class="grid grid-cols-1 lg:grid-cols-2">
+                <div>
+                  <div class="texttitleabout section__title">
+                    <div class="mt-6 token_section2 section__title flex justify-left items-center">
+                      <p class="about__header">
+                        About <br> Sphinx
+                      </p>
+                    </div>
+                  </div>
+                  <div class="mx-auto max-w-screen-lg">
+                    <p class="about__description text-justify">
+                      BISONISH is an innovative project focused on developing meme-based
+                      games on the Solana network, blending entertainment with
+                      blockchain technology. It creates fun and addictive games inspired
+                      by meme culture, offering players the chance to earn and collect
+                      digital assets like coins or tokens. By leveraging Solana's fast
+                      and low-cost transactions, BISONISH ensures a seamless gaming
+                      experience, where the worlds of gaming and memes intersect on a
+                      cutting-edge blockchain platform.
+                    </p>
+                  </div>
                 </div>
-              </div>
-              <div class="mx-auto max-w-screen-lg">
-                <p class="about__description text-justify">
-                  BISONISH is an innovative project focused on developing meme-based
-                  games on the Solana network, blending entertainment with
-                  blockchain technology. It creates fun and addictive games inspired
-                  by meme culture, offering players the chance to earn and collect
-                  digital assets like coins or tokens. By leveraging Solana's fast
-                  and low-cost transactions, BISONISH ensures a seamless gaming
-                  experience, where the worlds of gaming and memes intersect on a
-                  cutting-edge blockchain platform.
-                </p>
               </div>
 
               <div class="max-w-screen-lg justify-center" data-rellax-speed="-2">
                 <div class="max-w-screen-lg flex flex-col md:flex-row gap-2">
                   <div
-                    class="token_symbol grow text-black bg-[#F0B86B] rounded-full text-md font-semibold px-4 py-4 border-2 border-black text-center"
+                    class="token_symbol grow text-[#996E3C] bg-[#EDB969] rounded-full text-xl md:text-2xl lg:text-4xl font-semibold px-4 py-4 border-2 border-[#EDB969] text-center"
                   >
-                  sphynxsol4Nf8kjDVceuTkGbyxcLd2v38BFc9fcrN7x
+                  Contract Address
                   </div>
                   <div class="flex-none token_lp">
                     <button
-                      class="rounded-full bg-[#F0B86B] p-4 hover:bg-white/50 text-black transition hover:text-black/75 border-2 border-black"
-                      onclick="copyToClipboard('bisoncmso4Nf8kjDVceuTkGbyxcLd2v38BFc9fcrN7x')"
+                      class="rounded-full bg-[#EDB969] p-6 hover:bg-white text-[#996E3C] transition hover:text-black/75 border-2 border-[#EDB969]"
+                      onclick="copyToClipboard('????')"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -246,10 +201,10 @@
                     </button>
                   </div>
                 </div>
-                <div class="flex flex-col text-center justify-center w-full mt-2">
+                <div class="flex flex-col text-center justify-center w-full mt-2 mb-16">
                   <div class="flex-row">
-                    <a href="https://raydium.io/swap/?inputMint=bisoncmso4Nf8kjDVceuTkGbyxcLd2v38BFc9fcrN7x&outputMint=sol">
-                      <button class="game_canvas2 mt-2 bg-[#0235FF] hover:bg-[#FFB3B6] rounded-full text-md font-semibold text-white px-12 py-2 border-2 border-black">
+                    <a href="#"  target="_blank">
+                      <button class=" mt-2 bg-[#5B2D45] hover:bg-[#EDB969] rounded-full text-xl md:text-2xl lg:text-3xl font-semibold text-white px-12 py-4 border-2 border-[#5B2D45] hover:border-[#EDB969] transform hover:scale-110">
                         <p>Buy $SPHYNX</p>
                       </button>
                     </a>
@@ -276,9 +231,9 @@
 
   <div class="flex items-center justify-center z-1 mt-0 lg:mt-0">
     <img
-      src="./assets/img/mummy.gif"
+      src="./assets/img/mummyV2.gif"
       alt="$SPHYNX"
-      class="absolute bottom-0 right-36 mt-0 md:mt-0 w-[60%] md:w-[70%] lg:w-[40%]"
+      class="absolute bottom-4 right-36 mt-0 md:mt-0 w-[60%] md:w-[70%] lg:w-[40%]"
     />
   </div>
 </div>
@@ -519,6 +474,7 @@
     <!--=============== SCROLLREVEAL ===============-->
     <script src="assets/js/scrollreveal.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    
 
     <!--=============== MAIN JS ===============-->
     <script src="assets/js/main.js"></script>
