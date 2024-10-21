@@ -120,7 +120,7 @@ a {
 img {
   max-width: 100%;
   height: auto;
-  /* pointer-events: none; */
+  /* pointer-events: auto; */
 }
 
 /*=============== REUSABLE CSS CLASSES ===============*/
@@ -337,6 +337,11 @@ img {
   text-align: center;
   margin-top: 1.5rem;
 }
+
+/* .token_lp button, .game_canvas2 {
+  z-index: 10;
+} */
+
 
 .home img {
   position: absolute;

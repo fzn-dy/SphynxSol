@@ -39,22 +39,6 @@ const scrollHeader = () => {
 };
 window.addEventListener("scroll", scrollHeader);
 
-// const scrollHeaderbg = () => {
-//   const logomenu = document.getElementsByClassName("addtextnav");
-//   const logoimg = document.createElement("img");
-
-//   this.scrollY >= 50
-//     ? logoimg.src.add("assets/img/logo_white.png")
-//     : logoimg.src.remove("assets/img/logo_white.png");
-//     this.scrollY <= 50
-//     ? logoimg.src.add("assets/img/logo_black.png")
-//     : logoimg.src.remove("assets/img/logo_black.png");
-//   logomenu.appendChild(logoimg)
-//   // logomenu.classList.add("show-menu");
-//   // When the scroll is greater than 50 viewport height, add the scroll-header class to the header tag
-// };
-// window.addEventListener("scroll", scrollHeaderbg);
-
 let blackLogo = "../assets/img/logosph.png";
 let whiteLogo = "../assets/img/logosph.png";
 
